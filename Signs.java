@@ -51,7 +51,7 @@ public class Signs extends JavaPlugin implements Listener {
 			return;
 		}
 		
-		e.getPlayer().sendMessage(name)
+		e.getPlayer().sendMessage(name);
 		
 	}
 	
