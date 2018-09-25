@@ -51,8 +51,8 @@ public class Signs extends JavaPlugin implements Listener {
 			return;
 		}
 		
-		e.getPlayer().setDisplayName(name);
-		e.getPlayer().setPlayerListName(name);
+		e.getPlayer().sendMessage(name)
+		
 	}
 	
 	@EventHandler
